@@ -1,0 +1,28 @@
+ALGORITHM Sentence Explanation
+VAR
+    character_count: INTEGER:=0;
+    word_count: =0; INTEGER
+    vowel_count:=0; INTEGER
+    vowel: STRING := "a e i o u"
+    sentence:STRING
+
+BEGIN
+    Read(sentence)
+    //itterating thorugh the sentence
+     for i FROM 0 TO Sentence.lenght - 1  STEP step DO
+     // This part is for character count
+     IF (sentence [i]==="") THEN
+        character_count := character_count;
+        word_count := word_count+1;
+     ELSE_IF (sentence[i] ===".") THEN
+        word_count := word_count +1
+     ELSE
+        character_count:= character_count+1
+        word_count := word_count
+     END_IF
+    //This part is for word count
+    IF (vowel.includes(sentence[i])) THEN
+    vowel_count := vowel_count +1
+    
+    END_IF
+
